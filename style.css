@@ -45,6 +45,7 @@ body{
     align-items: center;
 }
 .nav-bar a{
+    font-size: 140%;
     text-decoration: none;
     color: white;
 }
