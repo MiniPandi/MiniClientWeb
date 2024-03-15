@@ -1,0 +1,25 @@
+{
+	"short_name": "MiniPandi",
+	"name": "MiniPandi",
+	"icons": [
+	  {
+		"src": "browser.png",
+		"type": "image/png",
+		"sizes": "32x32"
+	  },
+	  {
+		"src": "browser.png",
+		"type": "image/png",
+		"sizes": "32x32"
+	  }
+	],
+	"start_url": "https://client.minipandi.net",
+	"background_color": "#000000",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#000000",
+	"description": "This is a Minecraft CLient",
+	"dir": "auto",
+	"lang": "en",
+	"orientation": "portrait-primary"
+  }
