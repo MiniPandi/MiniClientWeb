@@ -21,5 +21,11 @@
         <a href="">DOWNLOAD</a>
     </div>
 </body>
-<script src="index.js"></script>
+<script>
+    fetch('https://hosting-miniclient.wireway.ch/status')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('onlinePlayers').innerText = data.onlinePlayers + ' Online';
+        });
+</script>
 </html>
