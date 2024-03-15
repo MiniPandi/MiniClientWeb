@@ -12,6 +12,11 @@
     scroll-behavior: smooth;
 }
 
+
+* {
+    cursor: url('icons/cursor.png'), auto;
+  }
+
 body{
     background-image: url(icons/2024-03-15_12.14.40.png);
 }
