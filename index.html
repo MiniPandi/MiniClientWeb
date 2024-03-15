@@ -9,7 +9,7 @@
 <body>
     <div class="top-bar">
         <img src="icons/Color logo - no background.png" alt="">
-        <span>1.275 Online</span>
+        <span id="onlinePlayers"></span>
     </div>
     <div class="nav-bar">
         <a href="">NEWS</a>
@@ -21,4 +21,11 @@
         <a href="">DOWNLOAD</a>
     </div>
 </body>
+<script>
+    fetch('https://hosting-miniclient.wireway.ch/status')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('onlinePlayers').innerText = data.onlinePlayers + ' Online';
+        });
+</script>
 </html>
